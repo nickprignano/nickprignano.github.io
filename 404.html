@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Moved</title>
+<script>
+  // Old project pages of the AVD repos moved with their repos to the avd-ops org.
+  // GitHub redirects repos after a transfer, but not their Pages sites, so this sends
+  // any old path under a moved repo to the same path on avd-ops.github.io.
+  (function () {
+    var moved = ['avd-landing-zone', 'avd-current-state'];
+    var first = location.pathname.split('/')[1];
+    if (moved.indexOf(first) !== -1) {
+      location.replace('https://avd-ops.github.io' + location.pathname + location.search + location.hash);
+    }
+  })();
+</script>
+</head>
+<body>
+<p>This page moved. The AVD repos now live at <a href="https://github.com/avd-ops">github.com/avd-ops</a>, and the project site is <a href="https://avd-ops.dev/">avd-ops.dev</a>.</p>
+</body>
+</html>
