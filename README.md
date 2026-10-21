@@ -7,7 +7,7 @@ account to the [avd-ops](https://github.com/avd-ops) organization. Start at
 | Old link | New home |
 |---|---|
 | github.com/nickprignano/avd-landing-zone | [github.com/avd-ops/avd-landing-zone](https://github.com/avd-ops/avd-landing-zone) |
-| nickprignano.github.io/avd-landing-zone/portal/ | [avd-ops.github.io/avd-landing-zone/portal/](https://avd-ops.github.io/avd-landing-zone/portal/) |
+| nickprignano.github.io/avd-landing-zone/portal/ | [deploy.avd-ops.dev/portal/](https://deploy.avd-ops.dev/portal/) |
 | github.com/nickprignano/avd-current-state | [github.com/avd-ops/avd-current-state](https://github.com/avd-ops/avd-current-state) |
 | github.com/nickprignano/avd-second-brain | [github.com/avd-ops/avd-second-brain](https://github.com/avd-ops/avd-second-brain) |
 | github.com/nickprignano/avd-swarm | [github.com/avd-ops/avd-swarm](https://github.com/avd-ops/avd-swarm) |
